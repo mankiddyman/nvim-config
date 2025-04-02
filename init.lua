@@ -17,7 +17,13 @@ local plugins = {
   {"nvim-treesitter/nvim-treesitter", build= ":TSUpdate"}, -- syntax highlighting i believe
   {"github/copilot.vim",
 	config = function()
-		end,}
+		end,},
+  {
+    "catgoose/nvim-colorizer.lua",
+    event = "BufReadPre",
+    opts = { -- set to setup table
+    },
+}
 }
 
 require("lazy").setup(plugins, opts)
