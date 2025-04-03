@@ -74,7 +74,6 @@ vim.keymap.set('i', '<C-v>', '<C-r>+', { desc = 'Paste from Clipboard' })
 
 -- Map leader plus W to save
 vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = 'Save File' })
-vim.keymap.set('i', '<leader>w', '<C-o>:w<CR>', { desc = 'Save File' })
 vim.keymap.set('v', '<leader>w', ':w<CR>', { desc = 'Save File' })
 
 -- map leader + a to  select all
